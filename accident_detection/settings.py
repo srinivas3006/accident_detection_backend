@@ -139,7 +139,7 @@ REST_FRAMEWORK = {
 import firebase_admin
 from firebase_admin import credentials
 
-cred = credentials.Certificate("livetrafficai-firebase-adminsdk-fbsvc-00b40c4e63.json")
+cred = credentials.Certificate("acpai-27f5f-firebase-adminsdk-fbsvc-5bf7c98989.json")
 firebase_admin.initialize_app(cred)
 
 
